@@ -1,7 +1,7 @@
 library(shiny)
 library(plyr)
 library(ggplot2)
-load("C:/Users/AJ/Desktop/my_app/analytics.Rdata")
+load("analytics.Rdata")
 passData<-reactive({
   
   analytics<-analytics[analytics$Date %in%
